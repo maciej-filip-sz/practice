@@ -1,4 +1,4 @@
-Build and test setup for my practice projects website. Based on angular-seed.
+Build and test setup for [my practice projects website](http://maciej-filip-sz.github.io/practice). Based on angular-seed.
     
     
 The dependencies are a bit ridiculous:
