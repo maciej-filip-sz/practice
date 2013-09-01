@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Practice projects - binary to decimal</title>
+
+  <meta charset='utf-8'>
+  <meta name='author' content='Maciej Filip Szkodziński'>
+
+  <!-- Bootstrap -->
+  <meta name='viewport' 
+        content='width=device-width, initial-scale=1.0'>
+  <link href='css/bootstrap.min.css' 
+        rel='stylesheet' 
+        media='screen'>
+
+</head>
+<body onload='setupProject()'> 
+
+  <div class='container'>
+
+    <div class='page-header'>
+      <h1>Practice projects <small>of Maciej Filip Szkodziński</small></h1>
+    </div>
+
+    <div class='row'>
+
+      <div class='col-md-3'>
+        <nav class='navbar navbar-default hidden-print' role='navigation'>
+        
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class='navbar-header'>
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-ex1-collapse'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='#'>Completed projects</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class='collapse navbar-collapse navbar-ex1-collapse'>
+            <ul class='nav navbar-nav'>
+              <li                     class='active'
+>
+                <a href='binary-decimal.html'>Binary to decimal</a>
+              </li>
+              <li >
+                <a href='reverse-string.html'>Reverse a string</a>
+              </li>
+              <li >
+                <a href='word-count.html'>Word count</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+      
+      <div class='col-md-9' role='main'>
+        
+        <ul id='navbar' class='pager'>
+            
+            <li class='next'><a href='reverse-string.html'>Reverse a string &rarr;</a></li>
+        </ul>
+
+        <div class='panel panel-default'>
+          <div class='panel-body'>
+            <p><strong>Binary to Decimal and Back Converter</strong> - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.</p>
+
+          </div>
+          <div id='project-body' class='panel-footer'>
+            <script src='js/projects-common.js'></script>
+            <form class='form-inline' role='form'>
+  <div class='form-group'>
+    <label for='decimal'>Number in decimal:</label>
+    <input id='decimal' name='decimal' type='number' class='form-control'>
+  </div>
+  <div class='form-group'>
+    <label for='binary'>Number in binary:</label>
+    <input id='binary' name='binary' type='number' class='form-control'>
+  </div>
+</form>
+<p class="help-block">Only integer parts of numbers are converted.</p>
+
+<script src='js/binary-decimal.js'></script>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class='modal-footer' role='contentinfo'>
+    <div class='container'>
+        contact: <a href='mailto:maciej.szkodzinski@gmail.com'>maciej.szkodzinski@gmail.com</a>
+    </div>
+  </footer>
+  <!- - jQuery (necessary for Bootstrap's JavaScript plugins) - ->
+  <script src='//code.jquery.com/jquery.js'></script>
+  <!- - Include all compiled plugins (below), or include individual files as needed - ->
+  <script src='lib/bootstrap.min.js'></script>
+</body>
+</html>

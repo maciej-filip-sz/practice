@@ -1,4 +1,3 @@
-practice
-========
+My implementations of project ideas from the "Mega Project List" by github.com/thekarangoel.
 
-practice projects
+-- Maciej Filip Szkodziński

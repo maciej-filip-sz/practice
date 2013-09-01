@@ -1,0 +1,11 @@
+title: Practice projects - reverse a string
+full_name: Reverse a string
+setup: 
+description: | 
+  <p><strong>Reverse a String</strong> - Enter a string and the program will reverse it and print it out.</p>
+body: |
+  <input id='in' name='in' type='text' class='form-control' value="Can a racecar reverse?">
+  <input id='out' name='out' class="form-control" type="text" value='?esrever racecar a naC'>
+  <p class="help-block">Mutually bound input boxes. Changing the input in one updates the value of the other, including pasting.</p>
+
+  <script src='js/reverse-string.js'></script>

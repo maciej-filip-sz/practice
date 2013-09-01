@@ -1,0 +1,18 @@
+title: Practice projects - binary to decimal
+full_name: Binary to decimal
+description: | 
+  <p><strong>Binary to Decimal and Back Converter</strong> - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.</p>
+body: |
+  <form class='form-inline' role='form'>
+    <div class='form-group'>
+      <label for='decimal'>Number in decimal:</label>
+      <input id='decimal' name='decimal' type='number' class='form-control'>
+    </div>
+    <div class='form-group'>
+      <label for='binary'>Number in binary:</label>
+      <input id='binary' name='binary' type='number' class='form-control'>
+    </div>
+  </form>
+  <p class="help-block">Only integer parts of numbers are converted.</p>
+
+  <script src='js/binary-decimal.js'></script>

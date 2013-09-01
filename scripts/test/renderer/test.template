@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ project.title }}</title>
+</head>
+<body>
+
+    <ul id='menu'>
+    {% for link in menu %}
+        <li><a href="{{ link.href }}">{{ link.text }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <span id='navbar'>
+        {% if navbar.previous is not none %}
+        <a id='previous' href="{{ navbar.previous.href }}">{{ navbar.previous.text }}</a>
+        {% endif %}
+        <a id='current' href="{{ navbar.current.href }}">{{ navbar.current.text }}</a>
+        {% if navbar.next is not none %}
+        <a id='next' href="{{ navbar.next.href }}">{{ navbar.next.text }}</a>
+        {% endif %}
+    </span>
+
+    <div id='project-body'>
+    {{ project.body }}
+    </div>
+
+</body>
+</html>
